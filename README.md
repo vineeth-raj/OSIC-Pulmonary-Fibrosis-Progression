@@ -48,3 +48,4 @@ This was trained using the following params:
 We did weighted average and the weights were calculated using **scipy's optimize** function
 
 ## Final Submission:
+![alt text](https://raw.githubusercontent.com/vineeth-raj/OSIC-Pulmonary-Fibrosis-Progression/main/Screenshot%20(245).png?token=ALEETBA3FEKH24RE5E4ZHIK7WKSLI)
