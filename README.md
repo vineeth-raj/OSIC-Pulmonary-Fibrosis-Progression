@@ -39,6 +39,8 @@ This was trained using the following params:
    - Trained with Adam Optimizer and LR of 0.1
    - Next we used ElasticNet for the tabular data with alpha=0.3 and l1_ratio=0.8
    - We trained this for 10 folds
+   - Next we used LassoRegressor for the tabular data with random_state=42 not much changes we did.
+   - We trained this for 10 folds.
    - No batch accumulation or mixed precision
    - We used only kaggle kernels- one for training effnet and another for inference of effnet and online training and inference of remaining models.
   
@@ -48,6 +50,6 @@ This was trained using the following params:
 We did weighted average and the weights were calculated using **scipy's optimize** function
 
 ## Final Submission:
-My final submission was an ensemble of the three above mentioned models. However we found that elastic-net scored very good.
+My final submission was an ensemble of the three above mentioned models. However we found that elastic-net scored very good but we didn't select it for our final submission else we wud have moved some steps up the leaderboard.
 
 ![alt text](https://raw.githubusercontent.com/vineeth-raj/OSIC-Pulmonary-Fibrosis-Progression/main/Screenshot%20(245).png?token=ALEETBA3FEKH24RE5E4ZHIK7WKSLI)
