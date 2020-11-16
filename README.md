@@ -14,7 +14,8 @@ Our final effnet model was efficient-b5-model trained with CT scan and the train
 
 ## Competition Metric:
 We used Competition Metric as a CV for our models. The competition metric is:
-                                                                          σclipped=max(σ,70),
+                                                                   
+                                                                    σclipped=max(σ,70),
 
                                                                     Δ=min(|FVCtrue−FVCpredicted|,1000),
 
@@ -26,6 +27,7 @@ This was trained using the following params:
   - Trained with an LR of 0.003 for 50 epochs and 5 folds
   - Batch size of 4 for the effnet-model
   - Next is we used quantile regression for the tabular data with a new quantile loss:
+                                                      
                                                       def new_asy_qloss(y_true,y_pred):
                                                           qs = [0.2, 0.50, 0.8]
                                                           q = tf.constant(np.array([qs]), dtype=tf.float32)
@@ -34,6 +36,7 @@ This was trained using the following params:
                                                           v = tf.maximum( -(1-q)*(e+q*epsilon), q*(e-(1-q)*epsilon))
                                                           v1 = tf.maximum(v,0.0)
                                                           return K.mean(v1)
+                                                          
    - Trained the quantile regression model for 5 folds and 855 epochs.
    - Trained with Adam Optimizer and LR of 0.1
    - Next we used ElasticNet for the tabular data with alpha=0.3 and l1_ratio=0.8
