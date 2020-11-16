@@ -16,7 +16,7 @@ Our final effnet model was efficient-b5-model trained with CT scan and the train
 We used Competition Metric as a CV for our models. The competition metric is:
                                                                           σclipped=max(σ,70),
 
-                                                                     Δ=min(|FVCtrue−FVCpredicted|,1000),
+                                                                    Δ=min(|FVCtrue−FVCpredicted|,1000),
 
                                                                     metric=−2–√Δσclipped−ln(2–√σclipped).
 
