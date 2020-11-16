@@ -50,6 +50,5 @@ This was trained using the following params:
 We did weighted average and the weights were calculated using **scipy's optimize** function
 
 ## Final Submission:
-My final submission was an ensemble of the three above mentioned models. However we found that elastic-net scored very good but we didn't select it for our final submission else we 
-
+My final submission was an ensemble of the three above mentioned models. However we found that elastic-net scored very good but we didn't select it for our final submission else we
 ![alt text](https://raw.githubusercontent.com/vineeth-raj/OSIC-Pulmonary-Fibrosis-Progression/main/Screenshot%20(245).png?token=ALEETBA3FEKH24RE5E4ZHIK7WKSLI)
