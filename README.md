@@ -43,3 +43,8 @@ This was trained using the following params:
    - We used only kaggle kernels- one for training effnet and another for inference of effnet and online training and inference of remaining models.
   
   ![alt text](https://camo.githubusercontent.com/c87f991d9ebe682771b66cf6ddd07aaa7f5d3ab900dc4a66a137c2e3d60de63d/68747470733a2f2f7777772e676f6f676c65617069732e636f6d2f646f776e6c6f61642f73746f726167652f76312f622f6b6167676c652d666f72756d2d6d6573736167652d6174746163686d656e74732f6f2f696e626f78253246333534333133392532463639613139363766626533663430363764376664396636653565393133353063253246666f6c64732e706e673f67656e65726174696f6e3d3136303230333635363832383433313526616c743d6d65646961)
+
+## Ensembling:
+We did weighted average and the weights were calculated using **scipy's optimize** function
+
+## Final Submission:
