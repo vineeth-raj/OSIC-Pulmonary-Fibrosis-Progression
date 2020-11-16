@@ -1,5 +1,4 @@
-# OSIC-Pulmonary-Fibrosis-Progression
+# [OSIC-Pulmonary-Fibrosis-Progression]https://www.kaggle.com/c/osic-pulmonary-fibrosis-progression
 ## Silver Medal Solution (67th place)
 
-About the competition there was a well good shakeup and we survived the shakeup.
 # Efficient-Net-B5 Training for images
