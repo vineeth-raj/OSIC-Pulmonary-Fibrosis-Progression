@@ -35,7 +35,7 @@ This was trained using the following params:
             v1 = tf.maximum(v,0.0)
             return K.mean(v1)
                                                           
-   - Trained the quantile regression model for 5 folds and 855 epochs.
+   - Trained the quantile regression model for 10 folds and 855 epochs.
    - Trained with Adam Optimizer and LR of 0.1
    - Next we used ElasticNet for the tabular data with alpha=0.3 and l1_ratio=0.8
    - We trained this for 10 folds
