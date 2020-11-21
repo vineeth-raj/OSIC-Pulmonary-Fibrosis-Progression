@@ -54,3 +54,6 @@ My final submission was an ensemble of the three above mentioned models. However
 wud have moved some steps up the leaderboard.
 
 ![ScreenShot](https://github.com/vineeth-raj/OSIC-Pulmonary-Fibrosis-Progression/blob/main/Screenshot%20(245).png)
+
+## Medium Write-up:
+[MEDIUM](https://vineethrajb.medium.com/silver-medal-solution-to-osic-pulmonary-fibrosis-progression-99017ee24641)
